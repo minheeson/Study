@@ -2,8 +2,6 @@
 
 #### JavaScript Framework 
 
-​	ng-app 
-
 #### 기본 개념
 
 - __Scope__
@@ -23,7 +21,7 @@
     ~~~js
     var myApp = angular.module('myApp',[]);
     myApp.controller('GreetingController', ['$scope', function($scope) {
-    $scope.greeting = 'Hola!';
+      $scope.greeting = 'Hola!';
     }]);
     ~~~
 - __Directives__
