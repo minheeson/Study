@@ -27,6 +27,7 @@
   <h3>Echo: {{user.name}}</h3>
   </body>
   ~~~
+  - 양방향 바인딩 (two-way binding)
 
 
 
