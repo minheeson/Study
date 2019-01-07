@@ -127,3 +127,19 @@ WHERE column_name BETWEEN value1 AND value2;
 SELECT column_name AS alias_name
 FROM table_name;
 ~~~
+
+#### JOIN
+
+~~~sql
+SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate
+FROM Orders
+INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
+~~~
+
+#### INNER JOIN
+
+~~~sql
+SELECT column_name(s)
+FROM table1
+INNER JOIN table2 ON table1.column_name = table2.column_name;
+~~~
