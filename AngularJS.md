@@ -28,6 +28,8 @@
   </body>
   ~~~
   - 양방향 바인딩 (two-way binding)
+  - ng-app : Angular에게 body 요소가 application에 포함되어 있다고 알려줌
+  - ng-model / ng-bind / ng-init 
 
 
 
