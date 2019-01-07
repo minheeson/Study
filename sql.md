@@ -97,7 +97,7 @@ WHERE condition;
 ~~~sql
 SELECT column1, column2, ...
 FROM table_name
-WHERE columnN LIKE pattern; /** wildcards : %, _ **/
+WHERE columnN LIKE pattern; /* wildcards : %, _ */
 ~~~
 
 #### IN
