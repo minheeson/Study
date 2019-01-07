@@ -12,8 +12,15 @@
 - __Model__
 - __View__
 - __Controller__
-- __Directives__
+  - 비즈니스 로직을 담고 있는 컴포넌트 
+  ~~~js
+  var myApp = angular.module('myApp',[]);
+  myApp.controller('GreetingController', ['$scope', function($scope) {
+  $scope.greeting = 'Hola!';
+  }]);
   ~~~
+- __Directives__
+  ~~~html
   <body ng-app>
   <span>Insert your name:</span>
   <input type="text" ng-model="user.name" />
