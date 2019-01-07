@@ -35,7 +35,7 @@
   - ng-model / ng-repeat / ng-init   
 - __Filters__
   - 모델 정보를 뷰에 뿌리기 전에 실행하는 컴포넌트
-  ~~~
+  ~~~html
   <div ng-app="myApp" ng-controller="personCtrl">
   <p>The name is {{ lastName | uppercase }}</p>
   </div>
