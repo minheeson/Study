@@ -8,7 +8,7 @@
 
 - __Scope__
   AngularJS 내에서 작업이 이루어지는 공간
-  - 모델의 데이터를 보관  
+  모델의 데이터를 보관  
 - __Model__
 - __View__
 - __Controller__
