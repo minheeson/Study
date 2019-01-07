@@ -15,7 +15,7 @@
   <h3>Echo: {{user.name}}</h3>
   </body>
   ~~~
-  - 양방향 바인딩 (two-way binding)
+  - 양방향 바인딩 (two-way binding) : 모델과 뷰 사이에 정보의 수정을 자동으로 동일하게 적용하는 매커니즘 
 - __Controller__
   - 비즈니스 로직을 담고 있는 컴포넌트 
     ~~~js
