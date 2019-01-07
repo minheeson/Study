@@ -66,5 +66,49 @@ WHERE condition;
 DELETE FROM table_name WHERE condition;
 ~~~
 
+#### MIN MAX
 
+~~~sql
+SELECT MIN(column_name)
+FROM table_name
+WHERE condition;
+~~~
 
+#### COUNT AVG SUM
+
+~~~sql
+SELECT COUNT(column_name)
+FROM table_name
+WHERE condition;
+~~~
+~~~sql
+SELECT AVG(column_name)
+FROM table_name
+WHERE condition;
+~~~
+~~~sql
+SELECT SUM(column_name)
+FROM table_name
+WHERE condition;
+~~~
+
+#### LIKE
+
+~~~sql
+SELECT column1, column2, ...
+FROM table_name
+WHERE columnN LIKE pattern; // wildcards : %, _
+~~~
+
+#### IN
+
+~~~sql
+SELECT column_name(s)
+FROM table_name
+WHERE column_name IN (value1, value2, ...);
+~~~
+~~~sql
+SELECT column_name(s)
+FROM table_name
+WHERE column_name IN (SELECT STATEMENT);
+~~~
